@@ -6,7 +6,7 @@ var itemtitle = $('.title')[0].innerText;
 
     paypal.Button.render({
 
-        env: 'sandbox',
+        //env: 'sandbox',
         style: {
             size: 'medium',
             color: 'blue',
