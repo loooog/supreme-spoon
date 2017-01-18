@@ -1,0 +1,16 @@
+.lowopacity{
+  filter:alpha(opacity=50);
+  opacity: 0.5;
+}
+.mylogo {
+    display: inline-block;
+    /*width: 20px; height: 20px;*/
+    overflow: hidden;
+}
+.mylogo > .mylogo {
+    position: relative;
+    left: -200px;
+    border-right: 20px solid transparent;
+    -webkit-filter: drop-shadow(rgb(204, 204, 204) 20px 0px);
+    filter: drop-shadow(rgb(204, 204, 204) 20px 0px);
+}
